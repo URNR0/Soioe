@@ -23,7 +23,7 @@ for i in range(1, 10):
 for i in range(0, 10, 2):
     print(i)
 
-# 4. 需要下标用 enumerate()
+# 4. 需要序号用 enumerate()
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
