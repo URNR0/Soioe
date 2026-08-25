@@ -19,6 +19,18 @@ During the past semester of the 2025–2026 academic year, I haven't had many ch
 | 09 | OOP Basics | class, `__init__`, `self`, methods |
 | 10 | OOP Advanced | inheritance, override, `__str__` |
 | 11 | OOP Project | to-do list rebuilt with classes |
+| 12 | Exceptions | try/except/else/finally, raise, custom |
+| 13 | Comprehensions | list / dict / set / generator |
+| 14 | Iterators & Generators | `iter`/`next`, `yield` |
+
+## Planned
+
+| # | Topic | Contents |
+|---|-------|----------|
+| 15 | Decorators | closures, `@decorator` |
+| 16 | Context Managers | `with`, `__enter__`/`__exit__` |
+| 17 | Type Hints | `typing`, annotations |
+| 18 | Project | direction TBD |
 
 ## Projects
 
