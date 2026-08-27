@@ -1,2 +1,7 @@
 # 运行时生成的数据文件,不提交
 *.txt
+
+# 虚拟环境和 Python 缓存
+venv/
+__pycache__/
+*.pyc

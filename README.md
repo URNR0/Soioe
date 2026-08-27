@@ -1,6 +1,6 @@
 # Soioe
 
-A freshman's Python learning record — from basics to building small object-oriented programs.
+A freshman's Python learning record — from basics to building a web scraper.
 
 During the past semester of the 2025–2026 academic year, I haven't had many chances to practice coding, so I've decided to start right now.
 
@@ -22,23 +22,23 @@ During the past semester of the 2025–2026 academic year, I haven't had many ch
 | 12 | Exceptions | try/except/else/finally, raise, custom |
 | 13 | Comprehensions | list / dict / set / generator |
 | 14 | Iterators & Generators | `iter`/`next`, `yield` |
-
-## Planned
-
-| # | Topic | Contents |
-|---|-------|----------|
 | 15 | Decorators | closures, `@decorator` |
 | 16 | Context Managers | `with`, `__enter__`/`__exit__` |
 | 17 | Type Hints | `typing`, annotations |
-| 18 | Project | direction TBD |
+| 18 | Project | a novel scraper (requests + BeautifulSoup) |
 
 ## Projects
 
 - [08-project](08-project/) — a to-do list (functions + file I/O)
 - [11-oop-project](11-oop-project/) — the same idea, rebuilt with `Task` and `TodoList` classes
+- [18-novel-scraper](18-novel-scraper/) — a novel scraper (requests + BeautifulSoup, with retry + rate limiting)
 
 ## How to Run
 
 ```bash
+# 待办清单
 python 11-oop-project/todo_oop.py
+
+# 小说爬虫(需先安装依赖)
+python 18-novel-scraper/scraper.py
 ```
